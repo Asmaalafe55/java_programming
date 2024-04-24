@@ -1,6 +1,7 @@
 package project1.src;
-
 import java.util.Scanner;
+import project1.vehicle.*; // This is used to import every class in vehcile folder
+// import project1.vehicle.selfDrive.VolvoCar; // or instead to import seperately
 
 class Methods{
     String animal;
@@ -29,6 +30,12 @@ class Methods{
 
 public class Application {
 public static void main(String[] args) {
+
+    Car car = new Car();
+    Truck truck = new Truck();
+
+
+    ////////////////////////////////////////////
     int aNumber = 9;
     boolean flag = true;
     char a;
