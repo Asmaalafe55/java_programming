@@ -24,7 +24,7 @@ class Student {
 
 }
 
-public class App {
+public class StaticAndConstant {
     public static void main(String[] args) {
 
         System.out.println("Before creating objects: " + Student.count);
