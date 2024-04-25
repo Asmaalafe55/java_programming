@@ -12,13 +12,8 @@ public class Inheritance {
 
         Car car1 = new Car();
 
-        Factory factory2 = car1;
-        factory2.build();
-
-
-
         car1.design();
         car1.build();
-        // car1.brand();
+        car1.brand();
     }
 }
