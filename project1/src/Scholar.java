@@ -7,4 +7,7 @@ public class Scholar extends Person {
         System.out.println("Scholar's eyes");
     }
     
+    public void hair(){
+        System.out.println("Scholar's hair");
+    }
 }

@@ -34,6 +34,12 @@ public class Constructors {
         Program myProgram = new Program();
         Program myProgram1 = new Program(2);
         Program myProgram2 = new Program(9,"Hello");
+
+        System.out.println("for warning" + myProgram.text);
+        System.out.println("for warning1" + myProgram1.text);
+        System.out.println("for warning2" + myProgram2.text);
+
+        
         
     }
     
