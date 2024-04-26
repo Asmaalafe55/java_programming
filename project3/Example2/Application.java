@@ -18,6 +18,7 @@ public class Application {
       // we can add any other message here like:
       System.out.println("File not found: " + file.toString());
     }
+    System.out.println("Continue execution");
   }
 }
 // the diffirence between example1 and example2 is that we are not throwing an exception in tha main method
