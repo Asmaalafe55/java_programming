@@ -30,19 +30,29 @@ public class Words {
   }
 
   public String toString() {
-    // String word = ""; // instead of String-> StringBuilder could be better for memory
     StringBuilder word = new StringBuilder();
+
     for (char letter : letters) {
-      if (letter == '\u0000') { // it the letter is equal to null
-        // word += '_';
-        word.append('_');
-      } else {
-        // word += letter;
-        word.append(letter);
-      }
-      //   word += ' ';
+      word.append(letter == '\u0000' ? '_' : letter);
       word.append(' ');
     }
+
     return word.toString();
+    // String word = ""; // instead of String-> StringBuilder could be better for memory
+    // for (char letter : letters) {
+    //     if (letter == '\u0000') { // it the letter is equal to null
+    //       word += '_';
+    //     } else {
+    //       word += letter;
+    //     }
+    //       word += ' ';
+    //   }
+    // to enhance this code we can do this in one line
+    //     if (letter == '\u0000') { // it the letter is equal to null
+    //     word.append('_');
+    //   } else {
+    //     word.append(letter);
+    //   }
+    // return word;
   }
 }
