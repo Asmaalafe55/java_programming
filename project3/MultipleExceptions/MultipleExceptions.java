@@ -1,13 +1,15 @@
 package project3.MultipleExceptions;
 
 import java.text.ParseException;
-import javax.imageio.IIOException;
+
+// import javax.imageio.IIOException;
 
 public class MultipleExceptions {
 
-  public void start() throws IIOException, ParseException {
+  // public void start() throws IIOException, ParseException {
+  public void start() throws ParseException {
     // lets say that we have an error
-    throw new IIOException(null, null);
+    // throw new IIOException(null, null);
 
     // lets assume that we have another error
     // we want to throw another exception
