@@ -1,4 +1,4 @@
-package project3;
+package project3.Example1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
