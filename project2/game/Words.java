@@ -55,4 +55,16 @@ public class Words {
     //   }
     // return word;
   }
+
+  public void guess(char letter) {
+    // in this method we need to add the letters that have been guessted from the player
+    // we have to loop into the selectedWord and check if the letter that the user guessed is in the selectedWord
+    for (int i = 0; i < selectedWord.length(); i++) {
+      if (letter == selectedWord.charAt(i)) {
+        letters[i] = letter;
+        // guessedRight = true;
+
+      }
+    }
+  }
 }
