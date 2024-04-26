@@ -1,14 +1,15 @@
 package project1.src;
 
-public class Computer implements Information{
-    private int serialNumber = 8035;
+public class Computer implements Information {
 
-    public void start(){
-        System.out.println("Computer Started");
-    }
+  private int serialNumber = 8035;
 
-    @Override
-    public void displayInfo(){
-        System.out.println("Computer serial Number : " + serialNumber);
-    }
+  public void start() {
+    System.out.println("Computer Started");
+  }
+
+  @Override
+  public void displayInfo() {
+    System.out.println("Computer serial Number : " + serialNumber);
+  }
 }
