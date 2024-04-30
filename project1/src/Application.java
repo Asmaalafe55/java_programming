@@ -60,6 +60,7 @@ public class Application {
     ///////////////////////////////////////////
 
     int bNumber = 0;
+
     do {
       System.out.println("Hola ... enter 9");
       bNumber = input.nextInt();
