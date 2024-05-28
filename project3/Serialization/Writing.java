@@ -5,6 +5,10 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
+// serialization means turnning an object into bitstream
+// and if you deserialize an object, it means taking bitstream and turning it back into an object
+// we will do serialization into files
+
 public class Writing {
 
   public static void main(String[] args) {
@@ -19,7 +23,7 @@ public class Writing {
       ObjectOutputStream objectOutputStream = new ObjectOutputStream(
         fileOutput
       );
-      objectOutputStream.writeObject(car);
+      objectOutputStream.writeObject(car); // serialize the object to file / writing
       objectOutputStream.writeObject(truck);
 
       objectOutputStream.close();

@@ -1,6 +1,9 @@
 package project3.Serialization;
 
-public class Vehicle {
+import java.io.Serializable;
+
+// to make an object be serializable we have to implement Serializable interface
+public class Vehicle implements Serializable {
 
   private int serialNumber;
   private String brand;
