@@ -27,6 +27,7 @@ public class Application {
       String value = myAnimals.getValue();
       System.out.println(key + ": " + value);
       // hashMap does not keep its order
+      // they are not sorted also
     }
   }
 }
