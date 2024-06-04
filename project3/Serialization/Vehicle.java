@@ -5,7 +5,8 @@ import java.io.Serializable;
 // to make an object be serializable we have to implement Serializable interface
 public class Vehicle implements Serializable {
 
-  private int serialNumber;
+  private transient int serialNumber;
+  // if i want to disable the serialization of an attribute, i can put 'transient' for the attribute i want
   private String brand;
 
   public Vehicle(int serialNumber, String brand) {
